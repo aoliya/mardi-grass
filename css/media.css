@@ -1,0 +1,50 @@
+
+
+
+
+.gallery{
+    display: flex;
+    margin: 0 auto;
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    width: 31%;
+    
+    
+    
+}
+.gallery .flexbox .item{
+    width: 100%;
+    
+    padding: 0.5em;
+}
+.gallery .flexbox .item img
+{
+    width: 100%;
+      display: block;
+      border: 8px solid white;
+} 
+
+.article-separator .separator{
+    width:33.33%;
+    height: 3px;
+}
+.article-separator .separator.green{
+    background: #8CBF3F;
+}
+.article-separator .separator.yellow{
+    background: #F2CC0F;
+}
+.article-separator .separator.purple{
+    background: #6F3CA0;
+}
+
+.video-gallery iframe{
+    border-radius: 25px;
+}
+
+
+
+

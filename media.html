@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto+Slab:wght@300;400&family=Roboto:ital,wght@0,300;0,400;0,500;1,400;1,500;1,600&display=swap"
+    rel="stylesheet">
+    <title>Media</title>
+    <script src="jquery-3.5.1.min.js"></script>
+    
+    <script src="js_carnaval/lightBoxGallery.js"></script>
+    <script src="js_carnaval/burgerPlug.js"></script>
+    <script src="js_carnaval/app.js"></script>
+    <script src="https://kit.fontawesome.com/002767b575.js" crossorigin="anonymous"></script>
+    <script>
+        $(() =>{
+            $(document).lightBox()
+        })
+    </script>
+</head>
+<body>
+    
+    <!-- logo and Search area start -->
+    <header class="container-fluid p-0 d-flex align-items-center">
+
+        <div class="logo-search container d-flex justify-content-between col-md-9">
+            <div class="logo">
+                <img src="images/xlogo.png.webp" alt="logo of fest" width="210">
+            </div>
+            <div class="search d-md-flex align-items-md-end pb-3 mb-1">
+                <input type="search" placeholder="Search...">
+                <button class="btn search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="burger h1 d-md-none d-flex align-items-end" id="id_burger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+     
+    </header>
+    <!-- logo and Search area end -->
+    <!-- nav starts -->
+    <div class="container">
+        <nav id="id_nav" class="navigation-bar row mt-4 d-md-flex">
+            <div class="first-box col">
+
+            </div>
+            <div class="box box-home col">
+                <a href="index.html">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    HOME
+                </a>
+            </div>
+            <div class="box box-about col">
+                <a href="about.html"><i class="fas fa-theater-masks"></i> ABOUT
+                </a>
+            </div>
+
+            <div class="box box-media col">
+                <a href="media.html"><i class="fas fa-photo-video"></i> MEDIA</a>
+            </div>
+            <div class="box box-faq col">
+
+                <a href="faq.html"><i class="fa fa-question-circle" aria-hidden="true"></i> FAQ</a>
+            </div>
+            <div class="box box-contact col">
+
+                <a href="contact.html"> <i class="fa fa-address-book-o" aria-hidden="true"></i> CONTACT</a>
+            </div>
+            <div class="box box-trivia col">
+                <a href="trivia.html"><i class="fas fa-dice-d20"></i> TRIVIA</a>
+            </div>
+            <div class="last-box col">
+
+            </div>
+           
+        </nav>
+    </div>
+    <!-- nav ends -->
+
+    <div class="container">
+        <div class="title-main col-lg-7 my-4">
+            <h1 class="common-heading display-4 text-center">Our Photo & Video Gallery</h1>
+          </div>
+          <div class="underline mb-5 mt-3">
+            <div class="short-underline"></div>
+            <div class="long-underline"></div>
+          </div>
+    </div>
+    
+    <div class="gallery container justify-content-center col-lg-10 mb-5 pt-5">
+        <div class="flexbox left-box mb-5">
+            <div class="item img1">
+                <img src="images/gallery/pic1.jpg" alt="">
+            </div>
+            <div class="item img2">
+                <img src="images/gallery/pic2.jpg" alt="">
+            </div>
+            <div class="item img3">
+                <img src="images/gallery/pic3.jpg" alt="">
+            </div>
+            <div class="item img3">
+                <img src="images/gallery/pic11.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="images/gallery/pic14.jpg" alt="">
+            </div>
+        </div>
+        <div class="flexbox middle-box">
+            <div class="item img4">
+                <img src="images/gallery/pic4.jpg" alt="">
+            </div>
+            <div class="item img5">
+                <img src="images/gallery/pic5.jpg" alt="">
+            </div>
+            <div class="item img6">
+                <img src="images/gallery/pic7.jpg" alt="">
+            </div>
+            <div class="item img7">
+                
+                <img src="images/gallery/pic6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="images/gallery/pic13.jpg" alt="">
+            </div>
+        </div>
+        <div class="flexbox right-box">
+            <div class="item img8">
+                <img src="images/gallery/pic8.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="images/gallery/pic9.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="images/gallery/pic10.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="images/gallery/pic12.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="images/gallery/pic15.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Separator -->
+    <div class="article-separator container d-flex my-5">
+        <div class="separator green"></div>
+        <div class="separator yellow"></div>
+        <div class="separator purple"></div>
+    </div>
+    <!-- Separator ends-->
+
+    <div class="video-gallery container my-5 py-5 text-center col-8 col-lg-6">
+        <div class="video embed-responsive embed-responsive-16by9 pt-5 mb-5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wAMT9EEhcS4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video embed-responsive embed-responsive-16by9 mb-5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EkIZwXbSh-Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video embed-responsive embed-responsive-16by9 mb-5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hzj1Hwa_6A8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video embed-responsive embed-responsive-16by9 mb-5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VgiAXlX9PPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video embed-responsive embed-responsive-16by9 mb-5 pb-5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fn-al_XNHpQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!-- social icons -->
+  <div class="social container d-flex justify-content-center mt-5">
+    <div class="row d-flex mt-5">
+      <a class="facebook d-flex justify-content-center align-items-center" href="https://www.facebook.com/MardiGrasNewOrleans" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a class="twitter d-flex justify-content-center align-items-center" href="https://twitter.com/MardiGrasNOLA" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a class="instagram d-flex justify-content-center align-items-center" href="https://www.instagram.com/mardigrasneworleans/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a class="youtube d-flex justify-content-center align-items-center" href="https://www.youtube.com/channel/UCOrq1qF6dVDn9Do-wvbKh0Q" target="_blank">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a class="tripadv d-flex justify-content-center align-items-center" href="https://www.tripadvisor.com/Profile/MardiGrasNOLA" target="_blank">
+        <i class="fab fa-tripadvisor"></i>
+      </a>
+    </div>
+    
+
+  </div>
+
+    <footer class="container-fluid mt-2">
+        <div class="row d-flex mb-0">
+            <div class="box yellow-box col-md-4 d-flex align-items-center justify-content-center">
+                <div>
+                    <a href="https://www.bestneworleanshotels.com/" class="advert" target="_blank">
+                        <img class="img-fluid p-1" src="images/footer/newOrleansHotels.webp" width="180" height="80" alt="BestNewOrleansHotels.com">
+                    </a>
+                </div>
+            </div>
+            <div class="box green-box col-md-4 d-flex flex-column justify-content-center text-center">
+                <div class="mb-2">
+                    <a href="http://www.experienceneworleans.com/" class="advert" target="_blank">
+                        <img class="img-fluid p-1"src="images//footer/experience.webp" width="180" height="80" alt="Experienceneworleans.com">
+                    </a>
+                </div>
+                
+                <p class="rights mt-2 mx-0 px-0">©2019-2020 All rights reserved</p>
+            </div>
+            <div class="box purple-box col-md-4 d-flex align-items-center justify-content-center">
+                <div>
+                    <a href="http://www.neworleansrestaurants.com/" class="advert" target="_blank">
+                    <img class="img-fluid p-1" src="images/footer/restaurants.webp" width="180" height="80" alt="Neworleansrestaurants.com">
+                </a>
+                </div>
+                <p class="rights-mobile d-md-none mt-2 mx-0 px-0">©2019-2020 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
